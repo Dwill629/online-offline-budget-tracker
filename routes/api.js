@@ -20,3 +20,15 @@ router.post("/api/transaction/bulk", ({body}, res) => {
       res.status(404).json(err);
     });
 });
+
+router.get("/api/transaction", (req, res) => {
+  Transaction.find({}).sort({date: -1})
+    .then(dbTransaction => {
+      res.json(dbTransaction);
+    })
+    .catch(err => {
+      res.status(404).json(err);
+    });
+});
+
+module.exports = router;
