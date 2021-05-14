@@ -1,5 +1,7 @@
 # online-offline-budget-tracker
 
+link to deployed application: https://devs-budget-tracker.herokuapp.com/
+
 # Description:
 
 This application will help you to keep track of your budget online and offline. While offline your transactions are stored in the indexDB of your web browser. Then when you connect to the internet, the stored transactions are automatically updated to a mongoDB Atlas database. Give it a try!
