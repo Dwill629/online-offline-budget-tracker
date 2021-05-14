@@ -4,6 +4,8 @@
 
 This application will help you to keep track of your budget online and offline. While offline your transactions are stored in the indexDB of your web browser. Then when you connect to the internet, the stored transactions are automatically updated to a mongoDB Atlas database. Give it a try!
 
+![budget-tracker](public/assets/images/budgettracker.gif)
+
 # Testing:
 
 If you'd like to test the application on you local machine, first install node.js. Then git clone the budget-tracker repository, cd into the budget-tracker directory, and type "npm install".
