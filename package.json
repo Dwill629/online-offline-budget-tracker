@@ -1,5 +1,5 @@
 {
-  "name": "pwa-budget-tracker",
+  "name": "online-offline-budget-tracker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/malenchite/pwa-budget-tracker.git"
+    "url": "git+https://github.com/Dwill629/online-offline-budget-tracker.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/malenchite/pwa-budget-tracker#readme",
+  "homepage": "https://github.com/Dwill629/online-offline-budget-tracker#readme",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
